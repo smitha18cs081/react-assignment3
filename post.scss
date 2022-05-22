@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .post {
+    width: 800px;
+    height: auto;
+    background: #fdfdfd;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 1px 1px 10px grey;
+  }
+
+  .post-text {
+    text-align: left;
+    font-size: 14px;
+  }
+}
